@@ -28,6 +28,18 @@ In order for the client and servers to communicate over the web, the HTTP protoc
 
 **OPTIONS** : Describes the communication options for the specified resource.
 
+**200** codes indicate success.
+
+**300** codes indicate multiple choices, meaning the server can respond to the request in more than one way.
+
+**400** codes indicate client errors, meaning the client sent an improperly formatted request.
+
+
+404 is a common example of a 400 code, indicating that a webpage doesn't exist or can't be accessed.
+
+
+500 codes indicate server errors, meaning the server application failed somehow.
+
 #### Web Attack Activity
 The following are examples and explanations of HTTP Repsonse and Requests. 
 
